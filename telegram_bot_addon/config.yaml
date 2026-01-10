@@ -8,7 +8,7 @@ homeassistant_api: true
 arch:
   - aarch64
   - amd64
-image: "ghcr.io/anykei/homeassistant_bot"
+image: "ghcr.io/anykei/telegram_ha_bot"
 
 init: false
 
