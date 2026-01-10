@@ -1,0 +1,22 @@
+name: "Telegram Bot"
+version: "0.0.1"
+slug: "telegram_bot"
+description: "Бот для управления домом через Telegram"
+hassio_api: true
+homeassistant_api: true
+
+arch:
+  - aarch64
+  - amd64
+image: "ghcr.io/anykei/homeassistant_bot"
+
+init: false
+
+map:
+  - config:rw
+options:
+  bot_token: ""
+  root_users: ""
+schema:
+  bot_token: str
+  root_users: str
