@@ -22,6 +22,6 @@ RUN apt-get update && apt-get install -y \
     fontconfig fonts-dejavu \
     && rm -rf /var/lib/apt/lists/*
 
-COPY --from=builder app/target/release/rust_test .
+COPY --from=builder app/target/release/test_addon .
 
 CMD ["./test_addon"]
