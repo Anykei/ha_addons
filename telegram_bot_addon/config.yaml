@@ -16,7 +16,7 @@ map:
   - config:rw
 options:
   bot_token: ""
-  root_users: ""
+  root_user: ""
 schema:
   bot_token: str
-  root_users: str
+  root_user: str
