@@ -1,5 +1,5 @@
 name: "Telegram Bot"
-version: "0.0.5"
+version: "0.0.6"
 slug: "telegram_bot"
 description: "Бот для управления домом через Telegram"
 hassio_api: true
