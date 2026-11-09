@@ -1,5 +1,7 @@
+# Source: Anykei/telegram_ha_bot/ha-addon/config.yaml.
+# Release automation copies this file to ha_addons and replaces version.
 name: "Telegram Bot"
-version: "0.3.0"
+version: "0.4.0"
 slug: "telegram_bot"
 description: "Бот для управления домом через Telegram"
 hassio_api: true
@@ -24,6 +26,8 @@ options:
   camera_default_clip_s: 10
   camera_recording_max_parallel_jobs: 4
   voice_enabled: false
+  # JSON overrides; requires a bot release with extra_options support.
+  extra_options: ""
 
 schema:
   bot_token: password
@@ -37,3 +41,4 @@ schema:
   camera_recording_max_parallel_jobs: "int(1,16)"
   voice_enabled: bool
   voice_ha_pipeline_id: "str?"
+  extra_options: str
