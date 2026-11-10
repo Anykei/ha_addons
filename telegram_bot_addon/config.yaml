@@ -1,7 +1,7 @@
 # Source: Anykei/telegram_ha_bot/ha-addon/config.yaml.
 # Release automation copies this file to ha_addons and replaces version.
 name: "Telegram Bot"
-version: "0.4.0"
+version: "0.4.1"
 slug: "telegram_bot"
 description: "Бот для управления домом через Telegram"
 hassio_api: true
